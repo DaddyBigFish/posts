@@ -1,5 +1,10 @@
 # posts
 
-Writings on findings and CVEs.
+GitHub Pages site.
 
-- [CVE-2025-8110 — Gogs PutContents symlink write to RCE (curl)](CVE-2025-8110.md)
+1. Repo **Settings → Pages**
+2. Source: **Deploy from a branch**
+3. Branch: `main` / `/ (root)`
+4. Open `https://daddybigfish.github.io/posts/`
+
+- [CVE-2025-8110](cve-2025-8110.html)
