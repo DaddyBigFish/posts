@@ -128,12 +128,37 @@ th { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: v
   font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
   padding: 6px 10px; border-radius: 980px;
 }
+.dir {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 28px;
+  margin: 20px 0 8px;
+}
+.dir a {
+  display: block;
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -.015em;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+.dir a:hover { color: var(--blue); text-decoration: none; }
+.dir a em {
+  display: block;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--faint);
+  margin-top: 2px;
+}
 footer {
   margin-top: 96px; padding-top: 24px; border-top: 1px solid var(--line);
   font-size: 13px; color: var(--faint);
 }
 @media (max-width: 700px) {
-  .grid, .step { grid-template-columns: 1fr; }
+  .grid, .step, .dir { grid-template-columns: 1fr; }
   .n { font-size: 36px; }
   nav.top { margin-bottom: 36px; }
 }
